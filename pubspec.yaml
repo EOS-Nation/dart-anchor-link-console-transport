@@ -1,0 +1,15 @@
+name: dart_anchor_link_console_transport
+description: Transport used by dart_anchor_link to print the encoded signing request to the console 
+version: 0.0.0
+homepage: https://github.com/TheRealPaco/dart-anchor-link-console-transport
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:  
+  dart_esr:
+    git: 
+      url: https://github.com/EOS-Nation/dart-esr
+      ref: feature/complete-port-of-esr-js
+  dart_anchor_link:
+    path: /home/paco/Documents/dev/eosn/dart-anchor-link
