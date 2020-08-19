@@ -11,7 +11,6 @@ class ConsoleTransport implements LinkTransport {
       Function({Exception exception, String reason}) cancel) {
     var uri = request.encode();
     print('Signing request\n${uri}');
-    cancel();
   }
 
   @override
